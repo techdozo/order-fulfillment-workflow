@@ -1,0 +1,6 @@
+include 'services:order-svc'
+include 'services:inventory-svc'
+include 'services:payment-svc'
+include 'services:shipment-svc'
+include 'services:common'
+

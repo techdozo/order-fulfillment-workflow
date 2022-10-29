@@ -1,0 +1,19 @@
+plugins {
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+subprojects {
+    group = 'dev.techdozo.workflow'
+    repositories {
+        mavenCentral()
+    }
+    compileJava {
+        sourceCompatibility = 17
+        targetCompatibility = 17
+    }
+}
